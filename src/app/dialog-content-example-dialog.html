@@ -1,0 +1,10 @@
+<h2 mat-dialog-title>Custom Message</h2>
+<mat-dialog-content class="mat-typography">
+  <!-- <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon> -->
+  <img src="assets/icons/icon-96x96.png">  
+  Custom installation message
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Custom Cancel Button</button>
+  <button id="installBtn" mat-button [mat-dialog-close]="true" cdkFocusInitial>Custom Install Button</button>
+</mat-dialog-actions>
